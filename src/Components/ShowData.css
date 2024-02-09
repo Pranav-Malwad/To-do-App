@@ -1,0 +1,22 @@
+.todo-container {
+    border: 2px solid rebeccapurple;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    place-items: center;
+    height: auto;
+    width: 40rem;
+    padding: 1.5rem;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0rem;
+}
+
+.del-btn {
+    padding: 0.4rem;
+    cursor: pointer;
+}
